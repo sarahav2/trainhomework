@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- my css -->
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body>
+        <div class="container">
+                <div class="jumbotron">
+                    <h1>Disney Train Schedule</h1>
+                </div>
+        
+                <div class="panel panel-default">
+                        <div class="panel-heading">Current Train Schedule</div>
+                        <div class="panel-body">
+                 <table class="table table-striped">
+                     <thead>
+                         <tr>
+                             <th>Train Name</th>
+                             <th>Destination</th>
+                             <th>Frequency(min)</th>
+                             <th>Next Arrival</th>
+                             <th>Minutes Away</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td>Trenton Express</td>
+                                 <td>Trenton</td>
+                                 <td>25</td>
+                                 <td>05:35 PM</td>
+                                 <td>10</td>
+                             </tr>
+                             <tr>
+                                 <td>Oregan Trail</td>
+                                 <td>Salem, Oregan</td>
+                                 <td>3600</td>
+                                 <td>01:39 PM</td>
+                                 <td>1154</td>
+                             </tr>
+                         </tbody>
+                        </table> 
+                        
+                </div>
+                </div>
+        
+                <div class="panel panel-default">
+                        <div class="panel-heading">Add Train</div>
+                        <div class="panel-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <lable for="name">Train Name</lable>
+                                    <input type="name" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <lable for="role">Destination</lable>
+                                    <input type="role" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <lable for="date">First Train Time (HH:mm - military time)</lable>
+                                    <input type="date" class="form-control" id="date">
+                                </div>
+                                <div class="form-group">
+                                        <lable for="rate">Frequency (min)</lable>
+                                        <input type="rate" class="form-control" id="rate">
+                                    </div>
+        
+                                <div class="col-lg-12">
+                                <button type="submit" class="btn btn-default" id="submitbtn"><i class="fa fa-submit" aria-hidden="true"></i>Submit</button>
+                                        
+                                </div>
+        
+        
+        
+                            </form>
+        
+                        </div>
+        
+        
+                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            </div>
+
+    
+</body>
+</html>

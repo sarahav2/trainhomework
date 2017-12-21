@@ -1,3 +1,14 @@
 body {
     background-image: url("https://www.planwallpaper.com/static/images/518071-background-hd_xO1TwRc.jpg")
 }
+
+.jumbotron {
+    border-top: 40px;
+    /* background-image: url("images/train.JPG"); */
+    /* background-color: rgb(192, 81, 164) */
+}
+
+h1 {
+    color: rgb(161, 40, 139)
+    
+}
